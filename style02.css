@@ -1,0 +1,313 @@
+.S001{
+    background-color: #faebd7;
+    height: 1400px;
+    font-family: 'Hahmlet', serif;
+    color: #faebd7
+}
+
+.soonH1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 70px;
+    color: #383838;
+}
+
+.soonH2{
+    color: #383838;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 70px;
+
+}
+
+.cursor{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 70px;
+    margin-top: 50px;
+    color: #383838;
+
+}
+
+
+
+
+
+.soon01{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.soon01D{
+    margin-left: 40px;
+
+}
+.soon01img{
+    height: 200px;
+    width: 700px;
+    background-image: url(image/billie.jpg);
+    background-size: cover;
+}
+.soon01img:hover + .soon01D{
+    color: #383838;
+}
+
+.billie{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.billieD{
+    word-break: keep-all;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    transition: all 1.3s;
+}
+
+.soon02img:hover + .soon02D{
+    color: #383838;
+}
+
+.soon02{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.soon02D{
+    margin-left: 40px;
+
+}
+.soon02img{
+    height: 200px;
+    width: 700px;
+    background-image: url(image/hanja.png);
+    background-size: cover;
+}
+
+.hanja{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.hanjaD{
+    word-break: keep-all;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    transition: all 1.3s;
+}
+
+
+.soon03img:hover + .soon03D{
+    color: #383838;
+}
+
+.soon03{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.soon03D{
+    margin-left: 40px;
+
+}
+.soon03img{
+    height: 200px;
+    width: 700px;
+    background-image: url(image/yakgwa.png);
+    background-size: cover;
+}
+
+.yakgwa{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.yakgwaD{
+    word-break: keep-all;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    transition: all 1.3s;
+}
+
+
+
+
+
+
+
+
+
+.S002{
+    background-color: #383838;
+    height: 2000px;
+    font-family: 'Hahmlet', serif;
+    color: #383838;
+}
+
+.unsoonH1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 70px;
+    color: #faebd7;
+}
+
+.unsoonH2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-bottom: 200px;
+    color: #faebd7;
+}
+
+
+
+.unsoon01{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.unsoon01D{
+    margin-left: 40px;
+}
+.unsoon01img{
+    height: 200px;
+    width: 700px;
+    background-image: url(image/lettering.png);
+    background-size: cover;
+}
+
+.unsoon01img:hover + .unsoon01D{
+    color: #faebd7;
+}
+
+.lettering{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: all 0.5s;
+
+}
+
+.letteringD{
+    word-break: keep-all;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    transition: all 1.3s;
+
+}
+
+
+
+.unsoon02{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.unsoon02D{
+    margin-left: 40px;
+
+}
+.unsoon02img{
+    height: 200px;
+    width: 700px;
+    background-image: url(image/drawing.png);
+    background-size: cover;
+}
+
+.unsoon02img:hover + .unsoon02D{
+    color: #faebd7;
+}
+
+.webDrawing{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.webDrawingD{
+    word-break: keep-all;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    transition: all 1.3s;
+}
+
+
+
+
+.unsoon03{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.unsoon03D{
+    margin-left: 40px;
+
+}
+.unsoon03img{
+    height: 200px;
+    width: 700px;
+    background-image: url(image/web.png);
+    background-size: cover;
+}
+
+.unsoon03img:hover + .unsoon03D{
+    color: #faebd7;
+}
+
+.web{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.webD{
+    word-break: keep-all;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    transition: all 1.3s;
+}
+
+.Back{
+    font-size: 20px;
+    color: #faebd7;
+    text-align: center;
+    padding: 15px 30px;
+    width: 500px;
+    border-radius: 30px;
+    border: 3px solid #faebd7;
+    background-color: #383838;
+    margin: auto;
+    margin-top: 200px;
+    transition: all 0.5s;
+}
+
+.Back:hover{
+    color: #383838;
+    background-color: #faebd7;
+}

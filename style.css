@@ -1,0 +1,317 @@
+
+.S01{
+    background-color: #faebd7;
+    height: 600px;
+    width: 1400px;
+    margin-bottom: 0;
+}
+
+.S01Margin{
+    margin-left: 70px;
+    color: #383838;
+}
+
+.KwonCursive{
+    position: absolute;
+    width: 200px;
+    top: 160px;
+    right: 250px;
+}
+
+.Name{
+    font-family: 'Hahmlet', serif;
+    font-weight: 800;
+    font-size: 60px;
+    padding-top: 50px;
+    margin-bottom: -15px;
+}
+
+.Name02{
+    font-family: 'Hahmlet', serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.Name03{
+    font-family: 'Hahmlet', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hr01{
+    height: 3px;
+    width: 1200px;
+    background-color:black;
+    margin-left: 0;
+    border: 0;
+}
+
+.Info{
+    display: flex;
+    line-height: 45px;
+    font-family: 'Hahmlet', serif;
+    font-size: 18px;
+}
+
+.Info02{
+    display: flex;
+}
+
+.List01{
+    font-weight: 600;
+}
+
+.Des01{
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.List02{
+    font-weight: 600;
+    margin-left: 400px;
+}
+
+.Des02{
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.S03{
+    font-family: 'Hahmlet', serif;
+    background-color: #383838;
+    height: 2000px;
+    word-break: keep-all;
+}
+
+
+.Meaning{
+    font-family: 'Hahmlet', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 70px;
+    padding-top: 100px;
+    color: #faebd7;
+    animation: slide 1s ease-out;
+}
+
+@keyframes slide{
+    from{
+        margin-left: -100px;
+        opacity: 0;
+
+    }
+    to{
+        margin-left: 70px;
+        opacity: 1;
+    }
+}
+
+@keyframes disappear{
+    from{
+        margin-left: 70px;
+        opacity: 1;
+    }
+    to{
+        margin-left: -100px;
+        opacity: 0;
+    }
+}
+
+.hover{
+    font-family: 'Hahmlet', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #faebd7;
+    margin-left: 70px;
+    margin-bottom: 120px;
+}
+
+.Kanji{
+    font-size: 150px;
+    color: #faebd7;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    word-spacing: 6px;
+}
+
+.btnS{
+    display: flex;
+    justify-content: center;
+}
+
+.meaningbtnK{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #383838;
+    color: #faebd7;
+    border: 3px solid #faebd7;
+    border-radius: 30px;
+    letter-spacing: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 0.5s;
+}
+
+.meaningbtnS{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #383838;
+    color: #faebd7;
+    border: 3px solid #faebd7;
+    border-radius: 30px;
+    letter-spacing: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 0.5s;
+}
+
+.meaningbtnH{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #383838;
+    color: #faebd7;
+    border: 3px solid #faebd7;
+    border-radius: 30px;
+    letter-spacing: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.meaningbtnK:hover{
+    background-color: #faebd7;
+    color: #383838;
+}
+
+.meaningbtnS:hover{
+    background-color: #faebd7;
+    color: #383838;
+}
+.meaningbtnH:hover{
+    background-color: #faebd7;
+    color: #383838;
+}
+
+.txtK{
+    font-size: 18px;
+    width: 250px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    color: #383838;
+}
+
+.txtS{
+    font-size: 18px;
+    width: 250px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    color: #383838;
+}
+
+.txtH{
+    font-size: 18px;
+    width: 250px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    color: #383838;
+}
+
+.meaningbtnK:hover ~.txtK{
+    color: #faebd7;
+    transition: all 0.5s;
+}
+
+.meaningbtnS:hover ~.txtS{
+    color: #faebd7;
+    transition: all 0.5s;
+}
+
+.meaningbtnH:hover ~.txtH{
+    color: #faebd7;
+    transition: all 0.5s;
+}
+
+.finalM{
+    font-size: 50px;
+    font-weight: 800;
+    color: #faebd7;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    animation: appear 1s ease-out;
+}
+
+.Q{
+    font-size: 20px;
+    color: #faebd7;
+    text-align: center;
+    padding: 15px 30px;
+    width: 500px;
+    border: 3px solid #faebd7;
+    border-radius: 30px;
+    background-color: #383838;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.Q:hover{
+    color: #383838;
+    background-color: #faebd7;
+}
+
+.kantImg{
+    height: 400px;
+    margin-top: 100px;
+    background-image: url(image/도서관.jpg);
+}
+
+.kant{
+    height: 300px;
+    position: absolute;
+    margin-top: 50px;
+    right: 250px;
+
+}
+
+.meirei{
+    font-size: 40px;
+    font-weight: 800;
+    color: #faebd7;
+    padding-top: 150px;
+    margin-left: 70px;
+
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes unappear{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
