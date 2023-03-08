@@ -46,7 +46,7 @@
 .soon01img{
     height: 200px;
     width: 700px;
-    background-image: url(image/billie.jpg);
+    background-image: url(./image/billie.jpg);
     background-size: cover;
 }
 .soon01img:hover + .soon01D{
